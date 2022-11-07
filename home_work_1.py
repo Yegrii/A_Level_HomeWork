@@ -15,8 +15,8 @@
 #     else:
 #         print("Zero division error")
 
-def print_numbers(n: int) -> None:
-    for i in range(n):
-        print(i)
-
-x = print_numbers(7)
+# def print_numbers(n: int) -> None:
+#     for i in range(n):
+#         print(i)
+#
+# x = print_numbers(7)
