@@ -9,15 +9,15 @@
 # 	Також визначте переможця та виведіть його прізвище з написом переможець.
 # 	вхідні дані для перевірки доклав у файлі (input.txt)
 
-with open('input.txt') as fl:
-    lines = fl.readlines()
-
-    result = {}
-    for line in lines:
-        parts = line.split()
-        result[parts[0]] = (0 if parts[0] not in result else result[parts[0]]) + int(parts[1])
-
-print(f'Your new president is: {max(result, key=result.get)} with {max(result.values())} total points')
+# with open('input.txt') as fl:
+#     lines = fl.readlines()
+#
+#     result = {}
+#     for line in lines:
+#         parts = line.split()
+#         result[parts[0]] = (0 if parts[0] not in result else result[parts[0]]) + int(parts[1])
+#
+# print(f'Your new president is: {max(result, key=result.get)} with {max(result.values())} total points')
 
 
 # 2. Годинник показує h годин, m хвилин і s секунд після півночі.
